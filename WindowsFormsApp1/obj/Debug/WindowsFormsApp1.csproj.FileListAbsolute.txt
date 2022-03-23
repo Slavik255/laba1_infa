@@ -21,3 +21,4 @@ C:\Users\PC\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompi
 C:\Users\PC\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\PC\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\PC\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormOrganizer.resources
+C:\Users\PC\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources

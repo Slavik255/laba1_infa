@@ -1,9 +1,31 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
 
 namespace WindowsFormsApp1
-{   
-   
-    internal class FormOrganizer : Form
+{
+    public struct Note
+    {
+        public enum Types
+        {
+            Memo,
+            Meeting,
+            Task
+        }
+        public Types type;
+        public DateTime date;
+        public DateTime time;
+        public string note;
+        public int id;
+    }
+    public partial class FormOrganizer : Form
     {
         private ComboBox comboBox1;
         private RadioButton radioButton1;
@@ -19,7 +41,18 @@ namespace WindowsFormsApp1
         private TableLayoutPanel tableLayoutPanel1;
         private TableLayoutPanel tableLayoutPanel2;
         private ColumnHeader columnHeader4;
-        private ListView listView1;
+        public ListView listView1;
+
+        public struct Data
+        {
+            public DateTime DateTime;
+            public string eEvent;
+            public string Type;
+        }
+        public List<Data> dataList = new List<Data>();
+        List<Note> Notes;
+        public int ID;
+        string path = Path.Combine(Directory.GetCurrentDirectory(), "Save.dat");
 
         private void InitializeComponent()
         {
@@ -51,10 +84,6 @@ namespace WindowsFormsApp1
             | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Memo",
-            "Meeting",
-            "Task"});
             this.comboBox1.Location = new System.Drawing.Point(311, 29);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(233, 34);
@@ -75,7 +104,6 @@ namespace WindowsFormsApp1
             this.listView1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(3, 118);
-            this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(567, 317);
             this.listView1.TabIndex = 1;
@@ -113,10 +141,10 @@ namespace WindowsFormsApp1
             this.radioButton1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.radioButton1.Location = new System.Drawing.Point(10, 29);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(144, 24);
+            this.radioButton1.Size = new System.Drawing.Size(139, 24);
             this.radioButton1.TabIndex = 2;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "All by cate gory";
+            this.radioButton1.Text = "All by category";
             this.radioButton1.UseVisualStyleBackColor = true;
             this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
@@ -168,6 +196,7 @@ namespace WindowsFormsApp1
             this.button2.TabIndex = 7;
             this.button2.Text = "Find";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -278,45 +307,99 @@ namespace WindowsFormsApp1
         public FormOrganizer()
         {
             InitializeComponent();
+             Notes = new List<Note>();
+            Notes = ReadListFromFile();
+        }
 
-            LoadData();
+        private void SaveListToFile()
+        {
+            FileStream fss = new FileStream(path, FileMode.Create);
+            BinaryWriter file = new BinaryWriter(fss);
+
+            file.Write(Notes.Count);
+            for (int i = 0; i < Notes.Count; i++)
+            {
+                file.Write(Notes[i].type.ToString());
+                file.Write(Notes[i].date.ToString());
+                file.Write(Notes[i].time.ToString());
+                file.Write(Notes[i].note);
+            }
+            file.Close();
+        }
+        private List<Note> ReadListFromFile()
+        {
+            if (File.Exists(path))
+            {
+                FileStream fssRead = new FileStream(path, FileMode.Open);
+                BinaryReader fileToRead = new BinaryReader(fssRead);
+
+                int count = fileToRead.ReadInt32();
+                List<Note> list = new List<Note>(count);
+                Note note = new Note();
+                string str;
+                for (int i = 0; i < count; i++)
+                {
+                    str = fileToRead.ReadString();
+                    if (str == Note.Types.Meeting.ToString())
+                    { note.type = Note.Types.Meeting; }
+                    else if (str == Note.Types.Task.ToString())
+                    { note.type = Note.Types.Task; }
+                    else { note.type = Note.Types.Memo; }
+                    DateTime.TryParse(fileToRead.ReadString(), out note.date);
+                    DateTime.TryParse(fileToRead.ReadString(), out note.time);
+                    note.note = fileToRead.ReadString();
+                    note.id = i + 1;
+                    list.Add(note);
+                }
+                fileToRead.Close();
+                ID = list.Count;
+                return list;
+            }
+            else
+                return new List<Note>();
         }
 
         public FormOrganizer(Form1 form1)
         {
+            InitializeComponent();
         }
 
-        private void listView1_SelectedIndexChanged(object sender, System.EventArgs e)
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void LoadData()
+        private void FormOrganizer_Load(object sender, EventArgs e)
         {
-            listView1.Items.Clear();
-
-            ImageList imageList = new ImageList();
-
-            imageList.ImageSize = new System.Drawing.Size(25, 25);
-        }
-        private void FormOrganizer_Load(object sender, System.EventArgs e)
-        {
-
+            comboBox1.Items.Add("Memo");
+            comboBox1.Items.Add("Meting");
+            comboBox1.Items.Add("Task");
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, System.EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, System.EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
         private void radioButton1_CheckedChanged(object sender, System.EventArgs e)
         {
-            
+            if (radioButton1.Checked && comboBox1.SelectedIndex > -1)
+            {
+                listView1.Columns.Clear();
+                int j = 0;
+                for (int i = 0; i < Notes.Count; i++)
+                {
+                    if ((int)Notes[i].type == comboBox1.SelectedIndex)
+                    {
+
+                        j++;
+                    }
+                }
+            }
+            else
+            {
+
+            }
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -329,14 +412,22 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button1_Click(object sender, System.EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Form2 f3 = new Form2();
+            f3.Show();
         }
 
-        private void button3_Click(object sender, System.EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-        
+            Form f2 = new Form2();
+            f2.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 f3 = new Form2();
+            f3.Show();
         }
     }
 }
