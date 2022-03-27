@@ -40,7 +40,7 @@ namespace WindowsFormsApp1
         private GroupBox groupBox2;
         private TableLayoutPanel tableLayoutPanel1;
         private TableLayoutPanel tableLayoutPanel2;
-        private ColumnHeader columnHeader4;
+        public ColumnHeader columnHeader4;
         public ListView listView1;
 
         public struct Data
@@ -359,7 +359,7 @@ namespace WindowsFormsApp1
                 return new List<Note>();
         }
 
-        public FormOrganizer(Form1 form1)
+        public FormOrganizer(Form1 f)
         {
             InitializeComponent();
         }
@@ -420,7 +420,7 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form f2 = new Form2();
+            Form f2 = new Form2(this);
             f2.Show();
         }
 
