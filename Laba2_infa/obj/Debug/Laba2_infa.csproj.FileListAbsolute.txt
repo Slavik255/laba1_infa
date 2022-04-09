@@ -1,11 +1,9 @@
 E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\bin\Debug\Laba2_infa.exe.config
 E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\bin\Debug\Laba2_infa.exe
 E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\bin\Debug\Laba2_infa.pdb
-E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\obj\Debug\Laba2_infa.csproj.AssemblyReference.cache
-E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\obj\Debug\Laba2_infa.csproj.SuggestedBindingRedirects.cache
 E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\obj\Debug\Laba2_infa.Form1.resources
 E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\obj\Debug\Laba2_infa.Properties.Resources.resources
 E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\obj\Debug\Laba2_infa.csproj.GenerateResource.cache
-E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\obj\Debug\Laba2_infa.csproj.CoreCompileInputs.cache
 E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\obj\Debug\Laba2_infa.exe
 E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\obj\Debug\Laba2_infa.pdb
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba2_infa\Laba2_infa\obj\Debug\Laba2_infa.csprojAssemblyReference.cache
