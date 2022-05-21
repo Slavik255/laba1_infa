@@ -490,5 +490,15 @@ namespace Laba2_infa
                 treeView1.EndUpdate();
             }
         }
+
+        private void toolStripStatusLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView1_ItemChecked(object sender, ItemCheckedEventArgs e)
+        {
+            toolStripStatusLabel2.Text = $"{listView1.CheckedItems.Count} of {listView1.Items.Count} items selected";
+        }
     }
 }
