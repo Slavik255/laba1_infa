@@ -1,0 +1,10 @@
+C:\Users\1\Desktop\Olega\bin\Debug\Olega.exe.config
+C:\Users\1\Desktop\Olega\bin\Debug\Olega.exe
+C:\Users\1\Desktop\Olega\bin\Debug\Olega.pdb
+C:\Users\1\Desktop\Olega\obj\Debug\Olega.csprojAssemblyReference.cache
+C:\Users\1\Desktop\Olega\obj\Debug\Olega.Form1.resources
+C:\Users\1\Desktop\Olega\obj\Debug\Olega.Form2.resources
+C:\Users\1\Desktop\Olega\obj\Debug\Olega.Properties.Resources.resources
+C:\Users\1\Desktop\Olega\obj\Debug\Olega.csproj.GenerateResource.cache
+C:\Users\1\Desktop\Olega\obj\Debug\Olega.exe
+C:\Users\1\Desktop\Olega\obj\Debug\Olega.pdb

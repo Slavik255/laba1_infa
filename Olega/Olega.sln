@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olega", "Olega.csproj", "{F1DE7A76-D138-4A6E-9CA8-7398E852583F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1DE7A76-D138-4A6E-9CA8-7398E852583F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DE7A76-D138-4A6E-9CA8-7398E852583F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DE7A76-D138-4A6E-9CA8-7398E852583F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DE7A76-D138-4A6E-9CA8-7398E852583F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B50374D7-7BA8-422B-BABE-0A207044F3F0}
+	EndGlobalSection
+EndGlobal

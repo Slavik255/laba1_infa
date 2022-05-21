@@ -1,0 +1,65 @@
+C:\Users\intre\source\repos\Blackjack\Blackjack\bin\Debug\Blackjack.exe.config
+C:\Users\intre\source\repos\Blackjack\Blackjack\bin\Debug\Blackjack.exe
+C:\Users\intre\source\repos\Blackjack\Blackjack\bin\Debug\Blackjack.pdb
+C:\Users\intre\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.AssemblyReference.cache
+C:\Users\intre\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.Properties.Resources.resources
+C:\Users\intre\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.GenerateResource.cache
+C:\Users\intre\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.CoreCompileInputs.cache
+C:\Users\intre\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.exe
+C:\Users\intre\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.pdb
+C:\Users\intre\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.Resource1.resources
+C:\Users\intre\source\repos\Blackjack\Blackjack\obj\Debug\Blackjack.Form1.resources
+E:\ИКТ\Blackjack\Blackjack\bin\Debug\Blackjack.exe.config
+E:\ИКТ\Blackjack\Blackjack\bin\Debug\Blackjack.exe
+E:\ИКТ\Blackjack\Blackjack\bin\Debug\Blackjack.pdb
+E:\ИКТ\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.AssemblyReference.cache
+E:\ИКТ\Blackjack\Blackjack\obj\Debug\Blackjack.Form1.resources
+E:\ИКТ\Blackjack\Blackjack\obj\Debug\Blackjack.Properties.Resources.resources
+E:\ИКТ\Blackjack\Blackjack\obj\Debug\Blackjack.Resource1.resources
+E:\ИКТ\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.GenerateResource.cache
+E:\ИКТ\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.CoreCompileInputs.cache
+E:\ИКТ\Blackjack\Blackjack\obj\Debug\Blackjack.exe
+E:\ИКТ\Blackjack\Blackjack\obj\Debug\Blackjack.pdb
+E:\ИКТ\Lab3(2)\lab3_inf(2)\bin\Debug\Blackjack.exe.config
+E:\ИКТ\Lab3(2)\lab3_inf(2)\bin\Debug\Blackjack.exe
+E:\ИКТ\Lab3(2)\lab3_inf(2)\bin\Debug\Blackjack.pdb
+E:\ИКТ\Lab3(2)\lab3_inf(2)\obj\Debug\lab3_inf(2).csproj.AssemblyReference.cache
+E:\ИКТ\Lab3(2)\lab3_inf(2)\obj\Debug\lab3_inf_2.Form1.resources
+E:\ИКТ\Lab3(2)\lab3_inf(2)\obj\Debug\Blackjack.Properties.Resources.resources
+E:\ИКТ\Lab3(2)\lab3_inf(2)\obj\Debug\Blackjack.Resource1.resources
+E:\ИКТ\Lab3(2)\lab3_inf(2)\obj\Debug\lab3_inf(2).csproj.GenerateResource.cache
+E:\ИКТ\Lab3(2)\lab3_inf(2)\obj\Debug\lab3_inf(2).csproj.CoreCompileInputs.cache
+E:\ИКТ\Lab3(2)\lab3_inf(2)\obj\Debug\Blackjack.exe
+E:\ИКТ\Lab3(2)\lab3_inf(2)\obj\Debug\Blackjack.pdb
+E:\ИКТ\Lab3(2)\bin\Debug\Blackjack.exe.config
+E:\ИКТ\Lab3(2)\bin\Debug\Blackjack.exe
+E:\ИКТ\Lab3(2)\bin\Debug\Blackjack.pdb
+E:\ИКТ\Lab3(2)\obj\Debug\Blackjack.Properties.Resources.resources
+E:\ИКТ\Lab3(2)\obj\Debug\Blackjack.Resource1.resources
+E:\ИКТ\Lab3(2)\obj\Debug\Blackjack.exe
+E:\ИКТ\Lab3(2)\obj\Debug\Blackjack.pdb
+E:\ИКТ\Lab3(2)\obj\Debug\Lab3(2).csproj.AssemblyReference.cache
+E:\ИКТ\Lab3(2)\obj\Debug\Lab3_task2.Form1.resources
+E:\ИКТ\Lab3(2)\obj\Debug\Lab3(2).csproj.GenerateResource.cache
+E:\ИКТ\Lab3(2)\obj\Debug\Lab3(2).csproj.CoreCompileInputs.cache
+E:\ИКТ\Lab3\Lab3(2)\bin\Debug\Blackjack.exe.config
+E:\ИКТ\Lab3\Lab3(2)\bin\Debug\Blackjack.exe
+E:\ИКТ\Lab3\Lab3(2)\bin\Debug\Blackjack.pdb
+E:\ИКТ\Lab3\Lab3(2)\obj\Debug\Lab3(2).csproj.AssemblyReference.cache
+E:\ИКТ\Lab3\Lab3(2)\obj\Debug\Lab3_task2.Form1.resources
+E:\ИКТ\Lab3\Lab3(2)\obj\Debug\Blackjack.Properties.Resources.resources
+E:\ИКТ\Lab3\Lab3(2)\obj\Debug\Blackjack.Resource1.resources
+E:\ИКТ\Lab3\Lab3(2)\obj\Debug\Lab3(2).csproj.GenerateResource.cache
+E:\ИКТ\Lab3\Lab3(2)\obj\Debug\Lab3(2).csproj.CoreCompileInputs.cache
+E:\ИКТ\Lab3\Lab3(2)\obj\Debug\Blackjack.exe
+E:\ИКТ\Lab3\Lab3(2)\obj\Debug\Blackjack.pdb
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba3_infa\Laba3_infa(2)\bin\Debug\Blackjack.exe.config
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba3_infa\Laba3_infa(2)\bin\Debug\Blackjack.exe
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba3_infa\Laba3_infa(2)\bin\Debug\Blackjack.pdb
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba3_infa\Laba3_infa(2)\obj\Debug\Lab3(2).csprojAssemblyReference.cache
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba3_infa\Laba3_infa(2)\obj\Debug\Lab3_task2.Form1.resources
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba3_infa\Laba3_infa(2)\obj\Debug\Blackjack.Properties.Resources.resources
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba3_infa\Laba3_infa(2)\obj\Debug\Blackjack.Resource1.resources
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba3_infa\Laba3_infa(2)\obj\Debug\Lab3(2).csproj.GenerateResource.cache
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba3_infa\Laba3_infa(2)\obj\Debug\Blackjack.exe
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\laba3_infa\Laba3_infa(2)\obj\Debug\Blackjack.pdb

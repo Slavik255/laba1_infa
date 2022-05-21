@@ -1,0 +1,11 @@
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\zachet_zadanie_infa_7\bin\Debug\zachet_zadanie_infa_7.exe.config
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\zachet_zadanie_infa_7\bin\Debug\zachet_zadanie_infa_7.exe
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\zachet_zadanie_infa_7\bin\Debug\zachet_zadanie_infa_7.pdb
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\zachet_zadanie_infa_7\obj\Debug\zachet_zadanie_infa_7.csprojAssemblyReference.cache
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\zachet_zadanie_infa_7\obj\Debug\zachet_zadanie_infa_7.Form1.resources
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\zachet_zadanie_infa_7\obj\Debug\zachet_zadanie_infa_7.Properties.Resources.resources
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\zachet_zadanie_infa_7\obj\Debug\zachet_zadanie_infa_7.csproj.GenerateResource.cache
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\zachet_zadanie_infa_7\obj\Debug\zachet_zadanie_infa_7.exe
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\zachet_zadanie_infa_7\obj\Debug\zachet_zadanie_infa_7.pdb
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\zachet_zadanie_infa_7\obj\Debug\zachet_zadanie_infa_7.Form2.resources
+E:\Program po 3d modelirovanii-o\Rabotu visual studio\zachet_zadanie_infa_7\obj\Debug\zachet_zadanie_infa_7.Form4.resources
